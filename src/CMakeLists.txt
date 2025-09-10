@@ -1,4 +1,4 @@
-idf_component_register(SRCS "main.c"
+idf_component_register(SRCS "main.c" "gamepad.c" "CRSF.c"
     INCLUDE_DIRS "."
     REQUIRES tinyusb
     )
